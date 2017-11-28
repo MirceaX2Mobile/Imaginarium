@@ -15,6 +15,7 @@
 		A456F3601FCD937500917056 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A456F35F1FCD937500917056 /* main.m */; };
 		A456F36A1FCD937500917056 /* ImaginariumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A456F3691FCD937500917056 /* ImaginariumTests.m */; };
 		A456F3751FCD937500917056 /* ImaginariumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A456F3741FCD937500917056 /* ImaginariumUITests.m */; };
+		A456F3841FCD93CD00917056 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A456F3831FCD93CD00917056 /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A456F3701FCD937500917056 /* ImaginariumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImaginariumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A456F3741FCD937500917056 /* ImaginariumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImaginariumUITests.m; sourceTree = "<group>"; };
 		A456F3761FCD937500917056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A456F3821FCD93CD00917056 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		A456F3831FCD93CD00917056 /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				A456F35B1FCD937500917056 /* LaunchScreen.storyboard */,
 				A456F35E1FCD937500917056 /* Info.plist */,
 				A456F35F1FCD937500917056 /* main.m */,
+				A456F3821FCD93CD00917056 /* ImageViewController.h */,
+				A456F3831FCD93CD00917056 /* ImageViewController.m */,
 			);
 			path = Imaginarium;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			files = (
 				A456F3551FCD937500917056 /* ViewController.m in Sources */,
 				A456F3601FCD937500917056 /* main.m in Sources */,
+				A456F3841FCD93CD00917056 /* ImageViewController.m in Sources */,
 				A456F3521FCD937500917056 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
